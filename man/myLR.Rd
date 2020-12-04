@@ -41,7 +41,6 @@ ypred2 <- myKNN(X, y,test_x = X, k = 5)
 table(ypred2, y)
 
 ### lda
-source('myLDA.R')
 ypred3 <- myLDA(X, y,test_x = X)
 table(ypred3$ypred, y)
 }
